@@ -5,13 +5,13 @@ Yoav Bierkatz - August 2026
 """
 
 def main() -> None:
-    name:str="Jude"
+    name:str= input("What is your name? ")
     # join with spaces
     print("Hello,",name)
     #string concatenation
-    print("Hello," + name)
+    print("Hello, " + name)
     #formatted string - f-string
-    print(f"Hello, {name})
+    print(f"Hello, {name}")
     
     
 
